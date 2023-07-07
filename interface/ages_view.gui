@@ -38,7 +38,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "loc_legend_nb_text_discovery"
+				pdx_tooltip = "loc_legend_nb_text_greentide"
 			}
 
 			iconType = {
@@ -58,7 +58,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "pic_age_of_discovery_desc"
+				pdx_tooltip = "pic_age_of_greentide_desc"
 			}
 
 			iconType = {
@@ -110,7 +110,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "loc_legend_nb_text_reformation"
+				pdx_tooltip = "loc_legend_nb_text_unraveling"
 			}
 
 			iconType = {
@@ -130,7 +130,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "pic_age_of_reformation_desc"
+				pdx_tooltip = "pic_age_of_unraveling_desc"
 			}
 
 			iconType = {
@@ -181,7 +181,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "loc_legend_nb_text_absolutism"
+				pdx_tooltip = "loc_legend_nb_text_witchkings"
 			}
 
 			iconType = {
@@ -201,7 +201,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "pic_age_of_absolutism_desc"
+				pdx_tooltip = "pic_age_of_witchkings_desc"
 			}
 
 			iconType = {
@@ -251,7 +251,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "loc_legend_nb_text_revolutions"
+				pdx_tooltip = "loc_legend_nb_text_artificers"
 			}
 
 			iconType = {
@@ -271,7 +271,7 @@ guiTypes = {
 				scale = 0.5
 				alwaystransparent = no
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "pic_age_of_revolutions_desc"
+				pdx_tooltip = "pic_age_of_artificers_desc"
 			}
 
 			iconType = {

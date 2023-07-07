@@ -25,7 +25,22 @@ age_of_revolutions = {
 			st_md_is_emperor = yes
 		}
 		obj_md_colonial_empire = {
+			allow = {
+				NOT = {
+					capital_scope = {
+						continent = serpentspine
+					}
+				}
+			}
 			st_md_colonial_empire = yes
+		}
+		obj_md_conquer_the_spine = {
+			allow = {
+				capital_scope = {
+					continent = serpentspine
+				}
+			}
+			st_md_has_conquered_serpentspine = yes
 		}
 		obj_md_cultures_accepted = {
 			st_md_cultures_accepted = yes
@@ -36,42 +51,62 @@ age_of_revolutions = {
 
 		# Great General -------------------------------------------------------------------
 
-		obj_md_great_general_europe = {
-			allow = { st_md_capital_in_christian_europe = yes }
+		obj_md_great_general_human_west = {
+			allow = {
+				st_md_capital_in_haless = no
+				culture_is_human = yes
+			}
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_muslim = {
-			allow = { religion_group = muslim }
+		obj_md_great_general_human_east = {
+			allow = {
+				st_md_capital_in_haless = yes
+				culture_is_human = yes
+			}
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_indian = {
-			allow = { st_md_capital_in_india = yes NOT = { religion_group = muslim } }
+		obj_md_great_general_dwarf = {
+			allow = { culture_group = dwarven }
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_indochina = {
-			allow = { st_md_capital_in_civilized_eastindies = yes NOT = { religion_group = muslim } }
+		obj_md_great_general_elf = {
+			allow = {
+				OR = {
+					culture_group = elven
+					culture_group = ynnic_ruinborn_elf
+					culture_group = eordan_ruinborn_elf
+				}
+			}
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_asian = {
-			allow = { st_md_capital_in_eastasia = yes NOT = { religion_group = muslim } }
+		obj_md_great_general_goblin = {
+			allow = { culture_group = goblin }
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_oceania = {
-			allow = { st_md_capital_in_uncivilized_eastindies_or_oceania = yes NOT = { religion_group = muslim } }
+		obj_md_great_general_harimari = {
+			allow = { culture_group = harimari }
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_steppe = {
-			allow = { st_md_capital_in_tartary = yes NOT = { religion_group = muslim } }
+		obj_md_great_general_orc = {
+			allow = { culture_group = orcish }
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_african = {
-			allow = { st_md_capital_in_africa_not_muslim = yes }
+		obj_md_great_general = {
+			allow = {
+				NOT = {
+					culture_is_human = yes
+					culture_group = dwarven
+					culture_group = elven
+					culture_group = ynnic_ruinborn_elf
+					culture_group = eordan_ruinborn_elf
+					culture_group = orcish
+					culture_group = harimari
+					culture_group = goblin
+				}
+			}
 			has_commanding_three_star = yes
 		}
-		obj_md_great_general_americas = {
-			allow = { st_md_capital_in_americas = yes NOT = { religion_group = muslim } }
-			has_commanding_three_star = yes
-		}
+		
 
 		# End Great General -------------------------------------------------------------------
 
@@ -87,6 +122,7 @@ age_of_revolutions = {
 	}
 
 	abilities = {
+		# Identical copy of Ages Reformed.
 		ab_md_1700s_allow_anti_revolutionary_zeal = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
@@ -188,16 +224,18 @@ age_of_revolutions = {
 				se_md_refund_splendor = { flagName = backrow_artillery_damage flagCategory = artillery_damage }
 			}
 		}
-		ab_md_1700s_manifest_destiny = {
+		ab_md_1800s_growing_bureaucracy = { # Taken from the Age of Industrialization in some compatch mods.
 			modifier = {
-				colonists = 1
-				global_colonial_growth = 20
+				free_adm_policy = 1
+				free_dip_policy = 1
+				free_mil_policy = 1
+				possible_policy = 1
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 10
 			}
 			effect = {
-				se_md_add_or_upgrade_bonus = { bonusName = colonization flagName = colonist_and_colonial_growth abilityName = ab_md_1700s_manifest_destiny showTooltip = true }
+				se_md_refund_splendor = { flagName = free_policies flagCategory = policies }
 			}
 		}
 		ab_md_1700s_scurvy_cured = {
