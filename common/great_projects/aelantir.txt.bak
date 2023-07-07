@@ -1013,7 +1013,7 @@ gift_of_autumn = {
 		country_modifiers = {
 			culture_conversion_cost = -0.25
 			global_autonomy = -0.05
-			technology_cost = -0.05
+			technology_cost = -0.1
 		}
 		on_upgraded = {
 		}
