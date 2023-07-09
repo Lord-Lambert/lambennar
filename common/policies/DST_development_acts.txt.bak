@@ -164,7 +164,7 @@ dse_policy_dev_cost_4 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -207,7 +207,7 @@ dse_policy_dev_cost_5 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -250,7 +250,7 @@ dse_policy_dev_cost_6 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -293,7 +293,7 @@ dse_policy_dev_cost_7 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -336,7 +336,7 @@ dse_policy_dev_cost_8 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -379,7 +379,7 @@ dse_policy_dev_cost_9 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -430,7 +430,7 @@ dse_policy_dev_cost_10 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -473,7 +473,7 @@ dse_policy_dev_cost_11 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -516,7 +516,7 @@ dse_policy_dev_cost_12 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -559,7 +559,7 @@ dse_policy_dev_cost_13 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -602,7 +602,7 @@ dse_policy_dev_cost_14 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -645,7 +645,7 @@ dse_policy_dev_cost_15 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
@@ -688,7 +688,7 @@ dse_policy_dev_cost_16 = {
 		}
 	}
 	
-	production_efficiency = 0.20
+	development_cost = -0.1
 
 	ai_will_do = {
 		factor = 10
