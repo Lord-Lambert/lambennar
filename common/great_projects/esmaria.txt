@@ -412,6 +412,7 @@ temple_of_ryala = {
 			tolerance_own = 0.5
 			diplomatic_reputation = 0.5
 			diplomatic_upkeep = 1
+			global_tax_income = 25
 		}
 		on_upgraded = {
 			add_permanent_province_modifier = {
@@ -438,6 +439,7 @@ temple_of_ryala = {
 			tolerance_own = 1
 			diplomatic_reputation = 1
 			diplomatic_upkeep = 2
+			global_tax_income = 75
 		}
 		on_upgraded = {
 			owner = {

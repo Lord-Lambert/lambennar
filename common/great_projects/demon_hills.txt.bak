@@ -108,7 +108,6 @@ azjakuma_shinukhorchi_the_highest_fire = {
 			local_development_cost = -0.075
 		}
 		country_modifiers = {
-			max_absolutism = 5
 			shinukhorchi_loyalty_modifier = 0.05
 			all_estate_influence_modifier = 0.05
 		}

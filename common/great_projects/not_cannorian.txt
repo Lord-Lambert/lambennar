@@ -658,9 +658,9 @@ ekha_harbor = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			heavy_ship_power = 0.05
-			galley_power = 0.05
-			light_ship_power = 0.05
+			heavy_ship_power = 0.075
+			galley_power = 0.075
+			light_ship_power = 0.075
 		}
 		on_upgraded = {
 		}

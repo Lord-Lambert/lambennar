@@ -71,7 +71,7 @@ verkal_gulan_hero_gate = {
 			factor = 600
 		}
 		province_modifiers = {
-			local_defensiveness = 0.2
+			local_defensiveness = 0.1
 		}
 		area_modifier = {			
 		}
@@ -91,7 +91,7 @@ verkal_gulan_hero_gate = {
 			factor = 2000
 		}
 		province_modifiers = {
-			local_defensiveness = 0.3
+			local_defensiveness = 0.2
 			local_hostile_attrition = 0.5
 		}
 		area_modifier = {
@@ -120,7 +120,7 @@ verkal_gulan_hero_gate = {
 			factor = 4000
 		}
 		province_modifiers = {
-			local_defensiveness = 0.4
+			local_defensiveness = 0.33
 			local_hostile_attrition = 1
 			local_defender_dice_roll_bonus = 1
 		}

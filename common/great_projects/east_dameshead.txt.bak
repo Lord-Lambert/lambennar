@@ -264,7 +264,7 @@ moonhaven_port_munas = {
 		}
 		country_modifiers = {
 			sailors_recovery_speed = 0.1
-			placed_merchant_power = 5
+			placed_merchant_power = 3
 		}
 		on_upgraded = {
 			add_base_production = 2
@@ -285,8 +285,8 @@ moonhaven_port_munas = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			sailors_recovery_speed = 0.20
-			placed_merchant_power = 10
+			sailors_recovery_speed = 0.15
+			placed_merchant_power = 5
 		}
 		on_upgraded = {
 			add_base_production = 3

@@ -124,7 +124,6 @@ ibevar_temple_of_munas = {
 			religious_unity = 0.1
 			tolerance_own = 0.5
 			tolerance_heathen = 0.5
-			global_tax_income = 25
 		}
 		on_upgraded = {
 			add_permanent_province_modifier = {
@@ -152,7 +151,6 @@ ibevar_temple_of_munas = {
 			tolerance_own = 1
 			tolerance_heathen = 1
 			tolerance_of_heathens_capacity = 1
-			global_tax_income = 75
 		}
 		on_upgraded = {
 			owner = {

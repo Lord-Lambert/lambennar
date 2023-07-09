@@ -132,7 +132,7 @@ bjarnrik_staple_port_of_konungrhavn = {
 		country_modifiers = {
 			range = 0.33
 			transport_attrition = -0.33
-			ship_durability = 0.075
+			ship_durability = 0.05
 		}
 		on_upgraded = {
 		}
