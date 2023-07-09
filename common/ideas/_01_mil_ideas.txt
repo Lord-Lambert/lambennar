@@ -286,7 +286,7 @@ stehendesheer0 = {
 	}
 	
 	stehendesheer4 = {
-		discipline = 0.35
+		discipline = 0.035
 	}
 	
 	ai_will_do = {
