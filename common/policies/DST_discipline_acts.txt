@@ -36,7 +36,7 @@ dse_policy_discipline_1 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -81,7 +81,7 @@ dse_policy_discipline_2 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -126,7 +126,7 @@ dse_policy_discipline_3 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -171,7 +171,7 @@ dse_policy_discipline_4 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -225,7 +225,7 @@ dse_policy_discipline_5 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -271,7 +271,7 @@ dse_policy_discipline_6 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -317,7 +317,7 @@ dse_policy_discipline_7 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -363,7 +363,7 @@ dse_policy_discipline_8 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -409,7 +409,7 @@ dse_policy_discipline_9 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -455,7 +455,7 @@ dse_policy_discipline_10 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -509,7 +509,7 @@ dse_policy_discipline_11 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -555,7 +555,7 @@ dse_policy_discipline_12 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -601,7 +601,7 @@ dse_policy_discipline_13 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -647,7 +647,7 @@ dse_policy_discipline_14 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -693,7 +693,7 @@ dse_policy_discipline_15 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -751,7 +751,7 @@ dse_policy_discipline_16 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -797,7 +797,7 @@ dse_policy_discipline_17 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -843,7 +843,7 @@ dse_policy_discipline_18 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -889,7 +889,7 @@ dse_policy_discipline_19 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
@@ -947,7 +947,7 @@ dse_policy_discipline_20 = {
 		}
 	}
 	
-	discipline = 0.05
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 10
