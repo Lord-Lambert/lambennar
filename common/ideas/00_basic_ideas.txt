@@ -91,7 +91,7 @@ plutocracy_ideas = {
 
 	tradition_of_payment = {
 		mercenary_manpower = 0.10
-		mercenary_discipline = 0.025
+		mercenary_discipline = 0.035
 	}
 	abolished_serfdom = {
 		land_morale = 0.10
@@ -478,7 +478,7 @@ diplomatic_ideas = {
 }
 
 
-offensive_ideas = {	#bertus mod
+offensive_ideas = {
 	category = MIL
 	
 	trigger = {
@@ -490,9 +490,7 @@ offensive_ideas = {	#bertus mod
 	}
 
 	bayonet_leaders = {
-		#leader_land_shock = 1	#1→0
-		shock_damage = 0.10	#0→0.10
-		fire_damage = 0.10	#0→0.10
+		shock_damage = 0.10	
 	}
 	national_conscripts = {
 		global_regiment_recruit_speed = -0.1
@@ -502,10 +500,10 @@ offensive_ideas = {	#bertus mod
 		movement_speed = 0.1
 	}
 	glorious_arms = {
-		prestige_from_land = 0.5
+		fire_damage = 0.10
 	}
 	engineer_corps = {
-		siege_ability = 0.05
+		siege_ability = 0.1
 		leader_siege = 1	
 	}
 	grand_army = {
@@ -532,7 +530,7 @@ defensive_ideas = {	#bertus mod
 	}
 
 	battlefield_commisions = {
-		army_tradition = 0.25
+		army_tradition = 0.5
 	}
 	military_drill = {
 		morale_damage_received = -0.1
@@ -542,54 +540,55 @@ defensive_ideas = {	#bertus mod
 		leader_land_fire = 1
 	}
 	regimental_system = {
-		fire_damage_received = -0.05
-		shock_damage_received = -0.05
+		fire_damage_received = -0.1
 	}
 	defensive_mentality = {
-		garrison_size = 0.20
-		defensiveness = 0.05
+		garrison_size = 0.15
+		defensiveness = 0.15
 	}
 	supply_trains = {
 		reinforce_speed = 0.25
 	}
 	improved_foraging = {
-		land_maintenance_modifier = -0.10
+		shock_damage_received = -0.1
 	}
 
 	ai_will_do = {
 		factor = 0.77
 	}
 }
+
 quality_ideas = {
 	category = MIL
 
 	trigger = {
 		NOT = {has_idea_group = quantity_ideas}
+		always = no
 	}
 	bonus = {
-		discipline = 0.025	#0.035→0.025
+		discipline = 0.035	#0.035→0.025
 	}
 
 	finest_of_horses = {
-		infantry_power = 0.05	#0.075→0.05
+		infantry_power = 0.1	
 	}
 	quality_education = {
-		army_tradition = 0.5	#1→0.5
+		army_tradition = 0.5	
 	}
 	private_to_marshal = {
-		cavalry_power = 0.05	#0.075→0.05
+		cavalry_power = 0.1	
 	}
 	escort_ships = {
 		ship_durability = 0.05
 	}
 	naval_drill = {
-		naval_morale = 0.05	#0.1→0.05
+		naval_morale = 0.1	
 	}
 	copper_bottoms = {
-		naval_attrition = -0.20	#-0.25→-0.2
+		naval_attrition = -0.25	
 	}
 	massed_battery = {
-		artillery_power = 0.05	#0.075→0.05
+		artillery_power = 0.05	
 	}
 
 	ai_will_do = {
@@ -603,30 +602,30 @@ quantity_ideas = {
 
 	trigger = {
 		NOT = {has_idea_group = quality_ideas}
+		always = no
 	}
 	bonus = {
-		land_forcelimit_modifier  = 0.20	#0.15→0.2
-		#special_unit_forcelimit = 0.10	#0.15→0
+		land_forcelimit_modifier  = 0.25
+		special_unit_forcelimit = 0.10	
 	}
 	mass_army = {
-		global_manpower_modifier = 0.20	#0.5→0.2
+		global_manpower_modifier = 0.25
 	}
 	the_young_can_serve = {
-		manpower_recovery_speed = 0.10	#0.5→0.1
+		manpower_recovery_speed = 0.15
 	}
 	enforced_service = {
 		global_regiment_cost = -0.1
 	}
 	quanti3 = {
-		global_sailors_modifier = 0.2	#0.5→0.2
-		sailors_recovery_speed = 0.1	#0→0.1
+		global_sailors_modifier = 0.2	
+		sailors_recovery_speed = 0.2	
 	}
 	quanti1 = {  
-		#mercenary_cost = -0.25	#-0.25→0
-		mercenary_manpower = 0.25	#0→0.25
+		mercenary_cost = -0.25
 	}
 	quanti2 = {  
-		allowed_marine_fraction = 0.2	#0.5→0.2
+		allowed_marine_fraction = 0.25
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.1
@@ -645,7 +644,7 @@ trade_ideas = {
 	}
 
 	shrewd_commerce_practise = {
- 		global_trade_power = 0.1	#0.2→0.1
+ 		global_trade_power = 0.15
   	}
   	free_trade = {
   		merchants = 1

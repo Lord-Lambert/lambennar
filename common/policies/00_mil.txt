@@ -879,7 +879,7 @@ the_liquor_act = {
 		}
 	}
 	
-	discipline = 0.025
+	discipline = 0.035
 
 	ai_will_do = {
 		factor = 0.6
@@ -1005,7 +1005,7 @@ war_on_our_terms_policy = {
 		}
 	}
 
-	discipline = 0.025
+	discipline = 0.035
 	
 	ai_will_do = {
 		factor = 1.0

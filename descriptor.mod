@@ -5,9 +5,10 @@ tags={
 	"Fantasy"
 }
 picture="lambennar.jpg"
-supported_version="1.35.*"
-path="mod/lambennar"
 dependencies={
 	"Anbennar-PublicFork"
 	"Anbennar: A Fantasy Total Conversion"
 }
+supported_version="1.35.*"
+path="mod/lambennar"
+remote_file_id="3001431737"
