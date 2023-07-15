@@ -684,7 +684,7 @@ exploration_ideas = {
 	important = yes
 	
 	trigger = {
-		always = no
+		adm_tech = 5
 	}
 	bonus = {
 		cb_on_primitives = yes
@@ -692,11 +692,11 @@ exploration_ideas = {
 	}
 
 	colonial_ventures = {
-		colonists = 3	#1→3
+		colonists = 1	
 	}
-	#quest_for_the_new_world	= {
-	#	may_explore = yes
-	#}
+	quest_for_the_new_world	= {
+		may_explore = yes
+	}
 	overseas_exploration = {
 		range = 0.5
 	}
@@ -707,8 +707,7 @@ exploration_ideas = {
  		global_tariffs = 0.20
  	}
 	free_colonies = {
-		#colonists = 1	#1→0
-		expel_minorities_cost = -0.4	#-0.25→-0.4
+		colonists = 1	
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
