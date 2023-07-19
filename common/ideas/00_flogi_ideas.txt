@@ -17,8 +17,9 @@ entwicklung0 = {
 	entwicklung6 = {
 		build_cost = -0.05	#-0.1→-0.05
 		# <<WIKI>> build_cost_in_subject_nation = -0.25
+	}
 	entwicklung7 = {
-		inflation_reduction = 0.005
+		inflation_reduction = 0.05
 	}
 	entwicklung1 = {
 		development_cost_in_primary_culture = -0.1
@@ -183,7 +184,7 @@ zentra0 = {
 	}
 
 	bonus = {
-		state_governing_cost = 0.25
+		state_governing_cost = 0.15
 		development_cost = -0.1
 	}
 	zentra1 = {
@@ -206,6 +207,7 @@ zentra0 = {
 		state_maintenance_modifier = -0.25
 	}
 	zentra7 = {
+		development_cost_modifier = -0.05
 		# <<WIKI>> development_cost_over_25 = yes
 	}
 
@@ -265,7 +267,7 @@ dezentra0 = {
 		trade_steering = 0.2
 	}
 	dezentra3 = {
-		trade_efficiency = 0.01
+		trade_efficiency = 0.1
 	}
 	dezentra1 = {
 		build_cost = -0.1
@@ -341,7 +343,7 @@ state_affairs_idea_groups_expanded = {
 		yearly_corruption = -0.1
 	}
 	red_tape_reduction = {
-		monthly_autonomy_change = -0.05
+		global_autonomy = -0.05
 	}
 	efficient_regional_governors = {
 		manpower_in_culture_group_provinces = 0.15
@@ -400,7 +402,7 @@ justiz0 = {
 	category = ADM
 
 	bonus = {
-		aggressive_expansion_impact = -0.1
+		ae_impact = -0.1
 	}
 
 	justiz1 = {
@@ -487,16 +489,13 @@ monarchie0 = {
 	}
 	monarchie1 = {
 		legitimacy = 1
-		# <<WIKI>> decision = monarchie_dec
-		# <<WIKI>> elective_monarchy_add_buff = yes
 	}
 	monarchie4 = {
 		leader_land_shock = 1
 		mil_advisor_cost = -0.1	
 	}
 	monarchie5 = {
-		yearly_absolutism = 1.0
-		monthly_splendor = 3
+		# <<WIKI>> decision = monarchie_dec
 	}
 	monarchie6 = {
 		ae_impact = -0.1
@@ -504,7 +503,6 @@ monarchie0 = {
 	}
 	monarchie7 = {
 		global_manpower_modifier = 0.1
-		# <<WIKI>> stand_interaktion = Nobil_1
 	}
 
 	ai_will_do = {
@@ -632,7 +630,7 @@ aristo0 = {
 		global_monthly_devastation = -0.25
 	}
 	aristo2 = {
-		aggressive_expansion_impact = -0.1
+		ae_impact = -0.1
 	}
 	aristo3 = {
 		missionaries = 1
@@ -1456,7 +1454,7 @@ propaganda0 = {
 	category = DIP
 
 	bonus = {
-		estate_interaction_cooldown_modifier = -0.5
+		estate_interaction_cooldown_modifier = -0.2
 		allow_free_estate_privilege_revocation = yes
 	}
 	propaganda1 = {
