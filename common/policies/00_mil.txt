@@ -42,7 +42,7 @@ monarchie0_mil_policy = {
 		}
 	}
 	
-	shock_damage = 0.2
+	shock_damage = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -331,18 +331,18 @@ superior_fortification_act = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = staatsverwaltung0
+		has_idea_group = state_affairs_idea_groups_expanded
 	}
 	
 	allow = {
-		full_idea_group = staatsverwaltung0
+		full_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			full_idea_group = staatsverwaltung0
+			full_idea_group = state_affairs_idea_groups_expanded
 			full_idea_group = diplomatic_ideas
 		}
 	}
 	
-	defensiveness = 0.2
+	defensiveness = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -615,13 +615,13 @@ colonial_garrisons = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = kolonialimperium0
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = kolonialimperium0
+		full_idea_group = exploration_ideas
 		OR = {
-			full_idea_group = kolonialimperium0
+			full_idea_group = exploration_ideas
 			full_idea_group = diplomatic_ideas
 		}
 	}
@@ -1080,8 +1080,7 @@ fear_tactics_policy = {
 		}
 	}
 
-	shock_damage = 0.1
-	fire_damage = 0.1
+	morale_damage = 0.15
 	
 	ai_will_do = {
 		factor = 1.0

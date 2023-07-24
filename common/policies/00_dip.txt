@@ -337,13 +337,13 @@ the_integrated_administration_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = staatsverwaltung0
+		has_idea_group = state_affairs_idea_groups_expanded
 	}
 	
 	allow = {
-		full_idea_group = staatsverwaltung0
+		full_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			full_idea_group = staatsverwaltung0
+			full_idea_group = state_affairs_idea_groups_expanded
 			full_idea_group = diplomatic_ideas
 		}
 	}
@@ -624,13 +624,13 @@ colonial_companies_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = kolonialimperium0
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = kolonialimperium0
+		full_idea_group = exploration_ideas
 		OR = {
-			full_idea_group = kolonialimperium0
+			full_idea_group = exploration_ideas
 			full_idea_group = diplomatic_ideas
 		}
 	}

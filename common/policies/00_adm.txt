@@ -50,7 +50,7 @@ monarchie0_adm_policy = {
 		}
 	}
 	
-	global_monthly_devastation = -0.2
+	global_monthly_devastation = -0.25
 
 	ai_will_do = {
 		factor = 1
@@ -327,7 +327,7 @@ sewer_system_policy = {
 		}
 	}
 	
-	local_development_cost = -0.1
+	development_cost = -0.05
 	supply_limit = 0.5
 
 	ai_will_do = {
@@ -338,13 +338,13 @@ visionary_thinkers = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = staatsverwaltung0
+		has_idea_group = state_affairs_idea_groups_expanded
 	}
 	
 	allow = {
-		full_idea_group = staatsverwaltung0
+		full_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			full_idea_group = staatsverwaltung0
+			full_idea_group = state_affairs_idea_groups_expanded
 			full_idea_group = diplomatic_ideas
 		}
 	}
@@ -625,13 +625,13 @@ overseas_dominions = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = kolonialimperium0
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = kolonialimperium0
+		full_idea_group = exploration_ideas
 		OR = {
-			full_idea_group = kolonialimperium0
+			full_idea_group = exploration_ideas
 			full_idea_group = diplomatic_ideas
 		}
 	}
