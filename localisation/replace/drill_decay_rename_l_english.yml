@@ -1,0 +1,3 @@
+﻿l_english:
+  MODIFIER_DRILL_DECAY_MODIFIER:1 "Constant Drill Gain Modifier"
+  SUBUNIT_NO_DRILL_DESC:1 "Army Drill changes by $DEC|+$ each month."

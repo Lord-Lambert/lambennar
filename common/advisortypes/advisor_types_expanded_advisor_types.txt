@@ -6508,7 +6508,7 @@ ate_advisor_supply_expert = {
 ate_advisor_sergeant = {
 	monarch_power = MIL
 
-	drill_decay_modifier = -0.2
+	drill_decay_modifier = 0.25
 
 	skill_scaled_modifier = {
 		trigger = {
