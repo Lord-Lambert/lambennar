@@ -1585,10 +1585,9 @@ konigreich0 = {
 	}
 
 	trigger = {
-		government_rank = 1	#2→1
 		NOT = {
 			OR = {
-				government_rank = 2	#3→2
+				government_rank = 3
 				is_emperor = yes
 			}
 		}

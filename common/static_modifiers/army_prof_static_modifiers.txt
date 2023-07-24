@@ -12,7 +12,7 @@ high_army_professionalism = {
 	special_unit_forcelimit = 0.1
     global_supply_limit_modifier = 1
     drill_decay_modifier = 1.0
-    yearly_army_professionalism = -0.01
+    yearly_army_professionalism = -0.03
 }
 
 regiment_drill_modifier = { # Used by individual regiments
@@ -20,7 +20,7 @@ regiment_drill_modifier = { # Used by individual regiments
 	fire_damage = 0.1
 	fire_damage_received = -0.25
 	shock_damage_received = -0.25
-    discipline = 0.1
+    discipline = 0.2
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
@@ -29,7 +29,7 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
-	yearly_army_professionalism = 0.02
+	yearly_army_professionalism = 0.03
 }
 
 base_values = {
