@@ -23,7 +23,7 @@ entwicklung0 = {
 	}
 	entwicklung1 = {
 		development_cost_in_primary_culture = -0.1
-		state_governing_cost = 0.1
+		state_governing_cost = 0.15
 	}
 	entwicklung2 = {
 		production_efficiency = 0.05
@@ -185,7 +185,7 @@ zentra0 = {
 	}
 
 	bonus = {
-		state_governing_cost = 0.15
+		state_governing_cost = 0.25
 		development_cost = -0.1
 	}
 	zentra1 = {
