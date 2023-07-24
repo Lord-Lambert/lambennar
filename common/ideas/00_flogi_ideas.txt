@@ -23,6 +23,7 @@ entwicklung0 = {
 	}
 	entwicklung1 = {
 		development_cost_in_primary_culture = -0.1
+		state_governing_cost = 0.1
 	}
 	entwicklung2 = {
 		production_efficiency = 0.05
@@ -1454,7 +1455,7 @@ propaganda0 = {
 	category = DIP
 
 	bonus = {
-		estate_interaction_cooldown_modifier = -0.2
+		estate_interaction_cooldown_modifier = -0.4
 		allow_free_estate_privilege_revocation = yes
 	}
 	propaganda1 = {
