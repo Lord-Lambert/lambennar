@@ -1,0 +1,28 @@
+
+#243 - Lincoln |
+
+owner = A50
+controller = A50
+add_core = A50
+add_core = A13
+culture = gawedi
+religion = regent_court
+
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+
+capital = ""
+
+is_city = yes
+
+
+
+
+
+
+
