@@ -1,0 +1,27 @@
+
+#104 - Milan | 
+
+owner = B69
+controller = B69
+add_core = B69
+culture = low_lorentish
+religion = regent_court
+
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = livestock
+
+capital = ""
+
+is_city = yes
+
+
+
+
+
+
+
