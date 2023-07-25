@@ -12,7 +12,7 @@ high_army_professionalism = {
 	special_unit_forcelimit = 0.1
     global_supply_limit_modifier = 1
     drill_decay_modifier = 1.0
-    yearly_army_professionalism = -0.03
+    yearly_army_professionalism = -0.05
 }
 
 regiment_drill_modifier = { # Used by individual regiments
@@ -67,7 +67,7 @@ base_values = {
 	max_flagships = 1
 	num_of_parliament_issues = 10
 
-    drill_decay_modifier = -1.0 # Sets drill gain to 0
+    drill_decay_modifier = -1.25 # Sets drill gain to 0
 }
 
 revolutionary_guard_regiment = {

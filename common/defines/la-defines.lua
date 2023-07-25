@@ -5,7 +5,7 @@ NDefines.NMilitary.WARGOAL_MAX_BONUS = 35
 NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0   -- Artillery fix
 
 NDefines.NMilitary.ARMY_DRILL_MAX_MORALE = 1.0
-NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 36
+NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 48
 
 NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = 10 -- Gain when not Drilling (at 100% army proffesionalism)
 NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 10 -- Gain from Drilling
