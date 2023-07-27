@@ -1111,7 +1111,7 @@ unified_army_command = {
 		factor = 1
 	}
 }
-wielders_of_the_flaming_sword_bertus_policy = {
+wielders_of_the_flaming_sword = {
 	monarch_power = MIL
 
 	potential = {
