@@ -7,8 +7,8 @@ entwicklung0 = {
 	category = ADM
 
 	bonus = {
-		development_cost_modifier = -0.1
-		administrative_efficiency = -0.1
+		development_cost = -0.1
+		state_governing_cost = 0.25
 	}
 
 	entwicklung5 = {
@@ -22,8 +22,7 @@ entwicklung0 = {
 		inflation_reduction = 0.05
 	}
 	entwicklung1 = {
-		development_cost_in_primary_culture = -0.1
-		state_governing_cost = 0.15
+		development_cost_modifier = -0.1
 	}
 	entwicklung2 = {
 		production_efficiency = 0.05
@@ -208,7 +207,7 @@ zentra0 = {
 		state_maintenance_modifier = -0.25
 	}
 	zentra7 = {
-		development_cost_modifier = -0.05
+		development_cost_in_primary_culture = -0.05
 		# <<WIKI>> development_cost_over_25 = yes
 	}
 
@@ -1455,7 +1454,7 @@ propaganda0 = {
 	category = DIP
 
 	bonus = {
-		estate_interaction_cooldown_modifier = -0.4
+		estate_interaction_cooldown_modifier = -0.3
 		allow_free_estate_privilege_revocation = yes
 	}
 	propaganda1 = {

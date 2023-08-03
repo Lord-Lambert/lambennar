@@ -1195,3 +1195,52 @@ psychological_warfare_policy_2 = {
 		}
 	}
 }
+
+handpicked_recruits_act = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = infrastructure_ideas
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		OR = {
+			full_idea_group = infrastructure_ideas
+			full_idea_group = diplomatic_ideas
+		}
+	}
+	
+	movement_speed = 0.2
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0			
+	}
+}
+
+universal_serfdom_act = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = court_ideas
+	}
+	
+	allow = {
+		full_idea_group = court_ideas
+		OR = {
+			full_idea_group = court_ideas
+			full_idea_group = diplomatic_ideas
+		}
+	}
+	
+	ae_impact = -0.1
+	morale_damage_received = -0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0			
+	}
+}

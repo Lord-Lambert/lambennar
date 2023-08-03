@@ -9912,13 +9912,13 @@ reassessement_provinces = {
 gunpowder_core = {
 	drill_decay_modifier = 0.5
     yearly_army_professionalism = 0.01
-	land_maintenance_modifier = 0.35
+	land_maintenance_modifier = 0.25
 }
 
 standardized_uniforms_modifier = {
 	drill_decay_modifier = 0.5
     yearly_army_professionalism = 0.01
-	land_maintenance_modifier = 0.35
+	land_maintenance_modifier = 0.25
 }
 
 elite_revolutionary_guard_modifier = {
