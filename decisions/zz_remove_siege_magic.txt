@@ -1,0 +1,22 @@
+country_decisions = {
+	cast_siege_magic = {
+		color = { 48 166 166 }
+		major = yes
+		
+		potential = {
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			set_ruler_flag = magic_siege_menu
+			custom_tooltip = open_siege_magic_menu_tt
+			hidden_effect = { country_event = { id = magic_siege.1 } }
+			open_single_menu = yes	#prevents people from opening the menu multiple times
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

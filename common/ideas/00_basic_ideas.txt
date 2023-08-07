@@ -1450,13 +1450,14 @@ court_ideas = {
 	}
 	
 	long_echo = {
-		monarch_admin_power = 1
+		power_projection_from_insults = 1
 	}
 	recognize_hierarchy = {
-		ae_impact = -0.1
+		all_estate_loyalty_equilibrium = 0.1
+		loyalty_change_on_revoked = 0.05
 	}
 	welcoming_ceremonies = {
-		monarch_military_power = 1 
+		prestige = 1 
 	}
 	tranquil_coordination = {
 		reform_progress_growth = 0.2
@@ -1466,9 +1467,10 @@ court_ideas = {
 	}
 	palace_of_splendor = {
 		monthly_splendor = 2 
-		estate_interaction_cooldown_modifier = -0.3
+		estate_interaction_cooldown_modifier = -0.20
 	}
 	court_embassies = {
+		possible_dip_policy = 1 
 		monarch_diplomatic_power = 1 
 	}
 
