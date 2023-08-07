@@ -2492,7 +2492,6 @@ festung0 = {
 	}
 	festung1 = {
 		defensiveness = 0.25
-		garrison_damage = 0.25
 	}
 	festung4 = {
 		fort_maintenance_modifier = -0.35
@@ -2508,6 +2507,7 @@ festung0 = {
 		global_garrison_growth = 0.25
 	}
 	festung2 = {
+		garrison_damage = 0.25
 		may_refill_garrison = yes
 	}
 	festung5 = {
